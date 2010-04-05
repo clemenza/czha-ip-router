@@ -1,0 +1,24 @@
+Using VNS sr stub code revised 2010-01-21 (rev 0.23)
+Loading routing table
+---------------------------------------------
+Destination	Gateway		Mask	Iface
+0.0.0.0		172.24.74.17	0.0.0.0	eth0
+171.67.240.165		171.67.240.165	255.255.255.255	eth1
+171.67.240.167		171.67.240.167	255.255.255.255	eth2
+---------------------------------------------
+Client xinlzhan connecting to Server vns-1.stanford.edu:3250
+Requesting topology 28
+successfully authenticated as xinlzhan
+Router interfaces:
+eth0	HWaddr00:3e:79:58:9a:9a
+	inet addr 171.67.240.160
+eth1	HWaddr00:cb:57:4b:e0:17
+	inet addr 171.67.240.164
+eth2	HWaddr00:de:28:b2:08:ad
+	inet addr 171.67.240.166
+ <-- Ready to process packets --> 
+**************************************
+VNS Welcome Message
+**************************************
+System status should be normal. Enjoy!
+
