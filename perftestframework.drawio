@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T02:20:59.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="VaB2dKoY8iKP4-weGOGB" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T02:25:36.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="PI1NH7JxbahFeK2ieDJB" version="17.4.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1186" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -49,12 +49,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1794" value="run test" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="790" y="300" width="110" height="60" as="geometry" />
+          <mxGeometry x="750" y="270" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1812" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="GsqEaRnPZe5fFwHVZHBa-1796" target="GsqEaRnPZe5fFwHVZHBa-1811">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1796" value="metric collection&lt;br&gt;&amp;amp;&amp;amp; publisher" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1834" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="GsqEaRnPZe5fFwHVZHBa-1796" target="GsqEaRnPZe5fFwHVZHBa-1813">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1796" value="metric publisher" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="980" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1807" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=diamond;endFill=1;" edge="1" parent="1" source="GsqEaRnPZe5fFwHVZHBa-1800" target="GsqEaRnPZe5fFwHVZHBa-1790">
@@ -78,8 +81,8 @@
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1810" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=diamond;endFill=1;" edge="1" parent="1" source="GsqEaRnPZe5fFwHVZHBa-1805" target="GsqEaRnPZe5fFwHVZHBa-1796">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1805" value="results log" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="780" y="430" width="120" height="80" as="geometry" />
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1805" value="results log&lt;br&gt;monitor stat" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="785" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1815" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=diamond;endFill=1;" edge="1" parent="1" source="GsqEaRnPZe5fFwHVZHBa-1811" target="GsqEaRnPZe5fFwHVZHBa-1813">
           <mxGeometry relative="1" as="geometry" />
@@ -130,7 +133,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GsqEaRnPZe5fFwHVZHBa-1832" value="find client host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="660" y="245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1833" value="parse result log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="384" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1835" value="write csv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GsqEaRnPZe5fFwHVZHBa-1836" value="monitor collect" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="330" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
